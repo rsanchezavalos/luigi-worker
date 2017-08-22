@@ -73,7 +73,6 @@ RUN apt-get --yes install libxss1 libappindicator1 libindicator7
 # Core
 RUN apt-get update; \
     apt-get update -yq && \
-    apt-get install -y build-essential && \
     apt-get install -y poppler-utils && \
     apt-get install -yqq ssh git build-essential
 
